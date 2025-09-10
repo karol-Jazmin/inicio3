@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#BFCAD9">
+    <table width="100%" height="200">
+        <tr><td width="30%"><center><img src="../PRACTICA/logo.jpg" width="200px"></center>
+        </td>
+        <td><center><p><h2><font color="white">EMPRESA DE VIAJES</font></h2></p>
+        <p><font color="blue">Karol Ponce Cabrera</font></p></center>
+    </td>
+</tr>
+
+    </table>
+    <table width="100%">
+        <tr bgcolor="red" height="30"><td width="30%"><font size="6px"><font color="white"><center>Empresa</center></font></font></td>
+        <td width="40%"><font color="white"><font size="6px"><center>SERVICIOS</center></font></font></td>
+        <td whidth="30%"><font color="white"><font size="6px"><center>GALERIA</center></font></font></td></tr>
+    </table>
+    <table width="100%">
+        <tr height="400"><td width="30%"><marquee behavior="alternate"><h1><font color="blue">haz de tu vida la mayor aventura <br><img src="../PRACTICA/viaje.jpg" alt="" height="200px"></font></h1></marquee></td>
+        <center><form>
+            <br><br><br>
+            <label>Tipo de transporte a viajar</label>
+            <br>
+            <select name="editor" id="editor">
+                <option value="auto">autobuses</option>
+                <option value="tre"> trenes</option>
+                <option value="avi">aviones</option>
+                <option value="bar"> barcos</option>
+            </select>
+            <input type="submit" value="enviar">
+             <td width="70%">
+            <form>
+                <fieldset>
+                    <legend>INGRESA TUS DATOS PARA SEPARAR TU VIAJE</legend>
+                    <label for="name">Nombre</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email">Correo</label>
+                    <br>
+                    <input type="text" id="email" name="email">
+                    <br>
+                    <label for="pass">Contraseña</label>
+                    <br>
+                    <input type="text" id="pass" name="pass">
+                    <br>
+                    <label for="naci">Fecha de nacimiento</label>
+                    <br>
+                    <input type="date" id="naci" name="naci">
+                    <br>
+                    <label for="cv">Ingersa a donde deceas viajar</label>
+                    <br>
+                    <input type="file" id="cv" name="cv">
+                    <br>
+                    <label>Comentario</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" cols="40" rows="5"></textarea>
+
+                    <br>
+                </fieldset>
+                <fieldset>
+
+                    <legend>Elige servicio</legend>
+                    <input type="radio" id="aloj" name="aloj">
+                    <label for="aloj">alojamiento</label>
+                    <br>
+                    <input type="radio" id="ali" name="ali">
+                    <label for="ali">Alimentación</label>
+                    <br>
+                    <input type="radio" id="tras" name="trans">
+                    <label for="trans">Transporte</label>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elige tipo de pago</legend>
+                    <select name="pago" id="pago">
+                        <option value="contado">contado</option>
+                        <option value="credito">credito</option>
+                    </select>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Satisfacción por la atención</legend>
+                    <input type="checkbox" id="bueno">
+                    <label for="bueno">Bueno</label>
+                    <br>
+                    <input type="checkbox" id="regular">
+                    <label for="regular">Regular</label>
+                    <br>
+                    <input type="checkbox" id="Malo">
+                    <label for="Malo">Malo</label>
+                    <br>
+                </fieldset>
+                <input type="submit" value="listo">
+                <br>
+                <input type="submit" value="borrar">
+        </form></center></tr>
+    </table>
+</body>
+</html>
